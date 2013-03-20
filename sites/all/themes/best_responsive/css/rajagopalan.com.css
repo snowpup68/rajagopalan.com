@@ -26,6 +26,7 @@
     padding: 10px 5px;
     width: 10px;
     background: url('../images/grey-dot.png') top left no-repeat;
+	cursor: pointer;
 }
 
 .view-restaurant-slideshow .active .views-field-counter {
@@ -34,4 +35,22 @@
 
 .view-restaurant-slideshow .views-content-counter {
     display: none;
+}
+
+.views-slideshow-controls-text-pause {
+	display: none;
+}
+
+.views-slideshow-controls-text-previous,
+.views-slideshow-controls-text-next {
+	position: absolute;
+	z-index: 100;
+	top: 250px;
+}
+.views-slideshow-controls-text-previous {
+	left: 10px;
+}
+.views-slideshow-controls-text-next {
+	position: absolute;
+	right: 10px;
 }
