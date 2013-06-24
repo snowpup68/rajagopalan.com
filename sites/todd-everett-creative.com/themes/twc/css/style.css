@@ -1,0 +1,27 @@
+/*
+
+*/
+header[role="banner"] {
+  color: white;
+  background: black;
+  border-bottom: 1px solid #eee;
+  height: 20px;
+  padding: 10px;
+}
+
+header[role="banner"] hgroup h1,
+header[role="banner"] hgroup h2 {
+  text-transform: uppercase;
+  font-family: Georgia, Verdana, Helvetica, sans-serif;
+}
+
+header[role="banner"] hgroup h1 {
+  float: left;
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+header[role="banner"] hgroup h2 {
+  color: red;
+  font-size: .8em;
+}
