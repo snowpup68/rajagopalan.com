@@ -68,10 +68,8 @@ div[role="main"] {
   padding: 30px;
 }
 
-.view-nodequeue-1,
-.view-nodequeue-2,
-.view-nodequeue-3 {
-  margin-bottom: 40px;
+.views-view-grid {
+  margin-bottom: 30px;
 }
 
 .view-header {
