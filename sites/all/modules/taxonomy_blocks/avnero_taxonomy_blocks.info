@@ -1,0 +1,5 @@
+name = Avnero Taxonomy Blocks
+description = "Create blocks for taxonomy terms"
+package = Avnero
+core = 7.x
+version = "7.x-1.0"

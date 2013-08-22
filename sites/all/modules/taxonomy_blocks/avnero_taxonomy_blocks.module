@@ -1,0 +1,37 @@
+<?php
+
+/*
+ * @file
+ * Drupal Module: Avnero Taxonomy Blocks
+ * Creates blocks for all terms in a vocabulary
+ *
+ * @author: Jai Rajagopalan <http://drupal.org/user/1576322/>
+ */
+
+
+/**
+ * Implementation of hook_block_info
+ */
+function avnero_taxonomy_blocks_block_info() {
+  $blocks = array();
+
+  $vids = db_select('taxonomy_vocabulary', 't')
+    ->fields('t', array('vid'))
+    ->condition('name', array('City', 'City Agency'), 'IN')
+    ->execute()
+    ->fetchCol();
+
+  if (!empty($vids)) {
+    $query = db_select('taxonomy_term_data', 't');
+    $query->fields('t')
+      ->condition('vid', $vids, 'IN');
+    $result = $query->execute();
+    while ($record = $result->fetchAssoc()) {
+      $blocks['taxonomy_block_' . $record['tid']] = array(
+        'info'  => t('Taxonomy Block: ' . $record['name']),
+        'cache' => DRUPAL_CACHE_PER_PAGE,);
+    }
+  }
+
+  return $blocks;
+}
