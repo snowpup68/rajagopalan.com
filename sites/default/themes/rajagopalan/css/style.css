@@ -1,0 +1,99 @@
+/*
+
+*/
+body {
+  font-family: proxima-nova, "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  padding: 20px;
+}
+
+header[role="banner"] {
+  color: white;
+  background: black;
+}
+
+header[role="banner"],
+.page,
+footer[role="contentinfo"] {
+  width: 890px;
+  margin: 0 auto;
+}
+
+header[role="banner"] hgroup h1,
+header[role="banner"] hgroup h2,
+.view-header,
+.view-footer {
+  text-transform: uppercase;
+}
+
+header[role="banner"] hgroup h1 {
+  float: left;
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+header[role="banner"] hgroup h2 {
+  color: #cc0000;
+  font-size: .8em;
+  padding-top: 3px;
+}
+
+header[role="banner"],
+footer[role="contentinfo"] {
+  border: 2px solid black;
+}
+
+.page {
+  border: 2px solid #cccccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header[role="banner"] hgroup {
+  padding: 15px;
+}
+
+footer[role="contentinfo"] {
+  background: black;
+}
+
+footer[role="contentinfo"] div {
+  height: 5px;
+}
+
+footer[role="contentinfo"] div span {
+  display: none;
+}
+
+div[role="main"] {
+  padding: 30px;
+}
+
+.view-nodequeue-1,
+.view-nodequeue-2,
+.view-nodequeue-3 {
+  margin-bottom: 40px;
+}
+
+.view-header {
+  margin-bottom: 10px;
+}
+
+.view-footer {
+  margin-top: 10px;
+}
+
+.views-view-grid .views-field-field-image {
+  margin: 10px;
+}
+
+.views-view-grid .col-first .views-field-field-image {
+  margin-left: 0px;
+}
+
+.views-view-grid .col-last .views-field-field-image {
+  margin-right: 0px;
+}
+
+.views-view-grid .field-content img {
+  border: 1px solid black;
+}
