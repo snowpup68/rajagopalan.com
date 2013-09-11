@@ -9,12 +9,15 @@ body {
 header[role="banner"] {
   color: white;
   background: black;
+  background-image: url(../Todd_Everett_banner.png);
+  background-size: 100% 100%;
+  background-position: right;
 }
 
 header[role="banner"],
 .page,
 footer[role="contentinfo"] {
-  width: 890px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -65,11 +68,11 @@ footer[role="contentinfo"] div span {
 }
 
 div[role="main"] {
-  padding: 30px;
+  padding: 10px 36px;
 }
 
-.views-view-grid {
-  margin-bottom: 30px;
+div.section {
+  margin: 20px 0;
 }
 
 .view-header {
