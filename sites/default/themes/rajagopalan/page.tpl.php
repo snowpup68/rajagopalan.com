@@ -41,8 +41,10 @@
 </header>
 
 <div class="page">
+<!--
   <h2>Date (cached)<?php print date('Y m d - h:i:s'); ?></h2>
   <h2>Date (uncached)<esi:include src="/esi/test.php" /></h2>
+-->
 
   <div role="main" id="#main-content">
     <?php print render($title_prefix); ?>
