@@ -8,7 +8,7 @@ body {
 
 header[role="banner"] {
   color: white;
-  background: black;
+  background: #353132;
   background-image: url(../Todd_Everett_banner.png);
   background-size: 100% 100%;
   background-position: right;
@@ -42,7 +42,7 @@ header[role="banner"] hgroup h2 {
 
 header[role="banner"],
 footer[role="contentinfo"] {
-  border: 2px solid black;
+  border: 2px solid #353132;
 }
 
 .page {
@@ -56,7 +56,7 @@ header[role="banner"] hgroup {
 }
 
 footer[role="contentinfo"] {
-  background: black;
+  background: #353132;
 }
 
 footer[role="contentinfo"] div {
@@ -96,5 +96,5 @@ div.section {
 }
 
 .views-view-grid .field-content img {
-  border: 1px solid black;
+  border: 1px solid #353132;
 }
