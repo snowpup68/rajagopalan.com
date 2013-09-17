@@ -29,8 +29,9 @@ header[role="banner"] hgroup h2,
 }
 
 header[role="banner"] hgroup h1 {
-  float: left;
-  font-size: 1.2em;
+  float:        left;
+  font-size:    1.2em;
+  margin-left:  18px;
   margin-right: 20px;
 }
 
@@ -72,7 +73,7 @@ div[role="main"] {
 }
 
 div.section {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .view-header {
@@ -98,3 +99,8 @@ div.section {
 .views-view-grid .field-content img {
   border: 1px solid #353132;
 }
+
+#cboxTitle {
+  font-size: 12pt;
+}
+
